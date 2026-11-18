@@ -56,8 +56,7 @@ export const PROFILE = {
   handle: 'Deeeptisuman',
   headline: 'AI Product Engineer',
   subHeadline: 'AI Product Engineer · Aspiring AI Product Manager',
-  heroTagline:
-    "I think like a PM, build like an engineer, and don't stop until the AI product actually works.",
+  heroTagline: '',
   location: 'India',
   timezoneAndReply: 'IST (GMT+5:30) · Replies in 24h',
   educationShort: 'BITSoM PM · LPU B.Tech CSE',
@@ -344,7 +343,7 @@ export const EXPERIENCE_TAB_DATA: ExperienceItem[] = [
   },
   {
     role: 'Associate, MIS & Technical Operations',
-    orgAndDates: 'VDK Eduventures · Apr 2024 – Sep 2025',
+    orgAndDates: 'VDK Eduventures · Apr 2024 – Present',
     impact:
       'Managed end-to-end CRM tickets handling 70–80+ daily queries, SQL data validation, SLA monitoring, and automated Sheets dashboards.',
     type: 'Work',

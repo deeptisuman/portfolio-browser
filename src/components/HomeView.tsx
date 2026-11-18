@@ -60,9 +60,11 @@ export function HomeView({
           <h1 className="text-[40px] sm:text-[48px] font-bold leading-none tracking-[-2px] text-white drop-shadow-[0_2px_14px_rgba(0,0,0,0.45)]">
             {PROFILE.name}
           </h1>
-          <p className="mt-3 text-[14px] font-medium text-white max-w-[520px] mx-auto leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
-            {PROFILE.heroTagline}
-          </p>
+          {PROFILE.heroTagline && (
+            <p className="mt-3 text-[14px] font-medium text-white max-w-[520px] mx-auto leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
+              {PROFILE.heroTagline}
+            </p>
+          )}
         </div>
 
         {/* 580px Google Search Bar */}
