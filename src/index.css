@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+    --color-surface: #ffffff;
+    --color-surface-subtle: #f8f9fa;
+    --color-border: #dadce0;
+    --color-ink-primary: #202124;
+    --color-ink-secondary: #3c4043;
+    --color-ink-muted: #5f6368;
+    --color-ink-placeholder: #9aa0a6;
+
+    --color-google-blue: #4285f4;
+    --color-google-blue-hover: #1a73e8;
+    --color-google-red: #ea4335;
+    --color-google-yellow: #fbbc05;
+    --color-google-green: #34a853;
+    --color-serp-url: #006621;
+    --color-serp-link: #1a0dab;
+  }
+
+  html,
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink-primary);
+    background-color: var(--color-surface);
+    margin: 0;
+    padding: 0;
+  }
+
+  code,
+  kbd,
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only-sheet {
+    position: static !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}
