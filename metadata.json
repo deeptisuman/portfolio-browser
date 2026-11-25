@@ -2,5 +2,5 @@
   "name": "Deepti Suman — AI Product Engineer & PM Portfolio",
   "description": "Google-inspired interactive portfolio for Deepti Suman, AI Product Engineer and Product Manager building multi-agent LLM platforms, browser agents, and user-centric products.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

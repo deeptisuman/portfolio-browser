@@ -15,6 +15,7 @@ import {
   WafflePopup,
 } from './components/Popups';
 import { ProjectDetailView } from './components/ProjectDetailView';
+import { TaraWidget } from './components/TaraWidget';
 import { WorkView } from './components/WorkView';
 
 type ActiveModal = 'about' | 'contact' | 'gallery' | 'resume' | null;
@@ -158,6 +159,12 @@ export default function App() {
           </div>
         )}
       </AnimatePresence>
+      {/* Floating Interactive AI Mascot Guide: Tara */}
+      <TaraWidget
+        currentPath={path}
+        onNavigate={navigate}
+        onOpenPopup={openPopup}
+      />
     </div>
   );
 }
